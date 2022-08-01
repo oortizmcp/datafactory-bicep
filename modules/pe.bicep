@@ -2,7 +2,7 @@ param location string
 param tags object
 param subnetId string
 
-@description('Specifies the name of the private link to the sql.')
+@description('Specifies the name of the private link to the datafactory.')
 param privateEndpointName string
 param privateEndpointGroupName string
 param privateLinkServiceId string
